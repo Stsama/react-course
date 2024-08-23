@@ -1,8 +1,8 @@
-import ColorPicker from './ColorPicker'
+import ArrayOfObjects from "./ArrayOfObjects";
 function App() {
 
   return(
-    <ColorPicker />
+    <ArrayOfObjects />
   );
 }
 
