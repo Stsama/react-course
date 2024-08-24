@@ -1,8 +1,9 @@
-import ArrayOfObjects from "./ArrayOfObjects";
+import ToDoList from "./ToDoList";
 function App() {
 
+
   return(
-    <ArrayOfObjects />
+    <ToDoList />
   );
 }
 
