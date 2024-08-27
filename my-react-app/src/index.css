@@ -1,4 +1,4 @@
-body{
+/* body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(0, 0%, 10%);
 }
@@ -7,9 +7,8 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* height: 100vh; */
-}
-h1{
+} */
+/* h1{
     margin: 50px;
     font-size: 3rem;
 }
@@ -43,7 +42,7 @@ input[type="color"]{
 }
 
 /* ===================To do list===================== */
-.to-do-list{
+/* .to-do-list{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-top: 100px;
@@ -78,18 +77,16 @@ button{
 }
 .move-button:hover{
     background-color:hsl(207, 90%, 44%);
-}
+} */
 
-input[type="text"]{
+/* input[type="text"]{
     font-size: 1.6rem;
     padding: 10px;
     border-radius: 5px;
     border: 2px solid hsl(0, 0%, 80%, 0.5);
     color: hsl(0, 0%, 0%, 0.5);
-    /* margin: 10px;
-    width: 300px; */
-}
-ol{
+} */
+/* ol{
     list-style-type: none;
     padding: 0;
 }
@@ -111,4 +108,33 @@ li{
     padding: 8px 12px;
     font-size: 1.4rem;
     margin-left: 10px;
+} */
+
+
+body{
+    background-image: url(assets/mountains-8391433_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.clock-container{
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    padding: 10 0;
+}
+.clock{
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 3px 3px 3px hsla(0, 0%, 0%, 0.75);
 }
