@@ -111,7 +111,7 @@ li{
 } */
 
 
-body{
+/* body{
     background-image: url(assets/mountains-8391433_1280.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -137,4 +137,9 @@ body{
     font-weight: bold;
     font-family: monospace;
     text-shadow: 3px 3px 3px hsla(0, 0%, 0%, 0.75);
+} */
+
+.box{
+    border: 3px solid;
+    padding: 25px;
 }

@@ -14,7 +14,7 @@ const DigitalClock = () => {
         let hours = time.getHours() 
         const minutes = time.getMinutes()
         const seconds = time.getSeconds()
-        const meridiem = time.getHours()
+        const meridiem = hours >= 12 ? 'PM' : 'AM'
 
         hours = hours % 12 || 12
         return `${padZero(hours)}:${padZero(minutes)}:${padZero(seconds)} ${meridiem}`
